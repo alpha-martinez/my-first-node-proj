@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/alpha-martinez/my-first-node-proj/issues"
   },
-  "homepage": "https://github.com/alpha-martinez/my-first-node-proj#readme"
+  "homepage": "https://github.com/alpha-martinez/my-first-node-proj#readme",
+  "dependencies": {
+    "moment": "^2.27.0"
+  }
 }
