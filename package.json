@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/alpha-martinez/my-first-node-proj#readme",
   "dependencies": {
-    "moment": "^2.27.0"
+    "moment": "^2.27.0",
+    "one-liner-joke": "^1.2.0"
   }
 }

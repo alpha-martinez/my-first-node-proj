@@ -35,9 +35,14 @@
 // const today = new Date();
 
 // console.log(today);
-const moment = require('moment')
-console.log(moment("7/21/1996", "MM DD YYYY").format("dddd [the] Do [of] MMM [in the year] YYYY"));
+// const moment = require('moment')
+// console.log(moment("7/21/1996", "MM DD YYYY").format("dddd [the] Do [of] MMM [in the year] YYYY"));
 
-console.log(moment(new Date()).diff(moment('1996-21-07', 'MM/DD/YYYY'), 'years'));
+// console.log(moment(new Date()).diff(moment('1996-21-07', 'MM/DD/YYYY'), 'years'));
 
 //Wednesday the 11th of September in the year 1985
+
+var oneLinerJoke = require('one-liner-joke');
+var getRandomJoke = oneLinerJoke.getRandomJoke();
+console.log(getRandomJoke);
+
